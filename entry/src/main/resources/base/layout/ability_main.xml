@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+
+    <Text
+        ohos:height="20vp"
+        ohos:width="600vp"
+        ohos:text_size="20fp"
+        ohos:text="进度条控件展示"/>
+
+    <Text
+        ohos:height="20vp"
+        ohos:width="600vp"
+        ohos:text_size="20fp"
+        ohos:text="自定义进度条控件静态"/>
+    <Button
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:id="$+id:button1"
+        />
+
+    <Text
+        ohos:height="20vp"
+        ohos:text_size="20fp"
+        ohos:width="match_parent"
+        ohos:text="自定义控件的进度条"/>
+    <Button
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:id="$+id:button2"
+        />
+    <Text
+        ohos:height="20vp"
+        ohos:width="600vp"
+        ohos:text_size="20fp"
+        ohos:text="自定义控件的进度条2"/>
+    <Button
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:id="$+id:button3"
+        />
+
+    <Text
+        ohos:height="20vp"
+        ohos:width="600vp"
+        ohos:text_size="20fp"
+        ohos:text="鸿蒙自带的进度条"/>
+    <ProgressBar
+        ohos:height="20vp"
+        ohos:width="match_parent"
+        ohos:progress="0"
+        ohos:max="100"
+        ohos:id="$+id:progressBar"/>
+
+    <Text
+        ohos:height="20vp"
+        ohos:width="600vp"
+        ohos:text_size="20fp"
+        ohos:text="加载中控件展示"/>
+    <Text
+        ohos:height="20vp"
+        ohos:width="600vp"
+        ohos:text_size="20fp"
+        ohos:text="自定义控件静态"/>
+
+    <Button
+        ohos:height="100vp"
+        ohos:width="100vp"
+        ohos:id="$+id:button4"/>
+    <Text
+        ohos:height="20vp"
+        ohos:width="600vp"
+        ohos:text_size="20fp"
+        ohos:text="自定义控件"/>
+    <Button
+        ohos:height="100vp"
+        ohos:width="100vp"
+        ohos:id="$+id:button5"
+        />
+    <Text
+        ohos:height="20vp"
+        ohos:width="600vp"
+        ohos:text_size="20fp"
+        ohos:text="自定义控件2"/>
+    <Button
+        ohos:height="100vp"
+        ohos:width="100vp"
+        ohos:id="$+id:button6"
+        />
+
+</DirectionalLayout>
